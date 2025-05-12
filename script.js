@@ -122,3 +122,5 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   startAnimation(0);
 });
+
+

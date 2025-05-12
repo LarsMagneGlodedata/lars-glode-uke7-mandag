@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/x-icon" href="home.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -30,6 +31,10 @@
           </div>
         </div>
         <div class="navMenu">
+          <div class="searchContainer">
+            <input class="searchBar" type="text" placeholder="Search...">
+            <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+          </div>
           <a href="">About</a>
           <a href="">Services</a>
           <a href="">Clients</a>
@@ -47,10 +52,33 @@
         </p>
         <img class="hero" src="" alt="" />
       </section>
-      <section>
-        <h2></h2>
-        <p></p>
-        <img src="" alt="" />
+      <section class="calculator">
+        <div class="container">
+        <div class="containerDisplay">
+        <p class="display">0</p>
+        </div>
+        <div class="containerButtons">
+        <button id="C" class="operator">C</button>
+        <button id="DEL" class="operator">DEL</button>
+        <button id="%" class="operator">%</button>
+        <button id="*" class="operator">*</button>
+        <button id="7" class="selector">7</button>
+        <button id="8" class="selector">8</button>
+        <button id="9" class="selector">9</button>
+        <button id="/" class="operator">/</button>
+        <button id="4" class="selector">4</button>
+        <button id="5" class="selector">5</button>
+        <button id="6" class="selector">6</button>
+        <button id="-" class="operator">-</button>
+        <button id="1" class="selector">1</button>
+        <button id="2" class="selector">2</button>
+        <button id="3" class="selector">3</button>
+        <button id="+" class="operator">+</button>
+        <button id="zero" class="selector">0</button>
+        <button id="comma" class="selector">,</button>
+        <button id="equal" class="operator">=</button>
+      </div>
+    </div>
       </section>
     </main>
     <footer>

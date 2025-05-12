@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  height: 400vh;
+  height: 50vh;
 }
 
 nav {
@@ -34,6 +34,40 @@ nav {
 
 .nav1 p {
   color: white;
+}
+
+.searchBar {
+  background-color: #555;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.searchBar {
+  outline-style: none;
+}
+
+.searchBar::placeholder {
+  color: white;
+}
+
+.fa {
+  color: white;
+  background-color: #333333;
+}
+
+.searchButton {
+  background-color: #333333;
+  border: none;
+}
+
+.searchButton:hover {
+  background-color: #444;
+}
+
+.searchButton:hover .fa {
+  background-color: #444;
 }
 
 main {
@@ -68,4 +102,57 @@ button {
 
 footer {
   padding: 1rem;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5em;
+  width: fit-content;
+  height: auto;
+  border-radius: 5px;
+  background-color: #333333;
+  color: white;
+}
+
+.containerDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: white;
+  color: black;
+  width: -webkit-fill-available;
+  margin-bottom: 0.5em;
+  height: 2em;
+}
+
+.containerButtons {
+  display: grid;
+  grid-template-columns: 3em 3em 3em 3em;
+  gap: 0.5em;
+}
+
+#zero {
+  grid-column: 1 / span 2;
+}
+
+#equal {
+  background-color: green;
+}
+
+#C {
+  background-color: red;
+}
+
+.operator {
+  background-color: orange;
+  border-radius: 5px;
 }
